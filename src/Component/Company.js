@@ -116,8 +116,7 @@ const Company = (props) => {
 
     return (
         props.companystate.isloading ? <div><h2>Loading.....</h2></div> :
-            props.companystate.errormessage ? <div><h2>{props.companystate.errormessage}</h2></div> :
-
+            props.companystate.errormessage ? <div><h2>{props.companystate.errormessage}</h2></div>:
 
                 <div>
                     <Paper>
