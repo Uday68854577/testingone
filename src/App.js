@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes,  } from 'react-router-dom';
 import Company from './Component/Company';
@@ -10,7 +9,6 @@ function App() {
   return (
     <Provider store={compstore}>
     <BrowserRouter>
-
       <Routes>
        <Route path='/' element={<Company></Company>}></Route>
       </Routes>
